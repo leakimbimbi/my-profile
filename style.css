@@ -1,0 +1,98 @@
+/*Colors and fonts*/
+body { 
+  background-color: peachpuff;
+  color: black;
+  font-family: 'New Tegomin', serif;
+  font-size: 19px;
+}
+
+h1 {
+  color: rgb(30,30,30);
+  font-family:'Pacifico', cursive; 
+  font-size: 38px;
+}
+
+h2 {
+   color: #8C1A6A;
+   font-family: 'Luckiest Guy', cursive;
+   font-size: 26px; 
+}
+
+a { 
+  text-decoration: none; 
+	color : palevioletred;
+}
+a:hover {
+	color :#8C1A6A;
+}
+
+/*Custom design with class (99% of your design) */
+   #myself {
+    margin: 0px 19px;
+    margin-left: 50px; 
+	  border-radius : 70px;
+	  box-shadow: 0px 10px 30px rgba(0,0,0,0.3); 
+}
+   #paris {
+    margin: 0px 60px;
+    border-radius : 60px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3); 
+}
+   .text-justify { 
+    text-align: justify;  
+}
+  .btn-palevioletred {
+    background-color: white;
+    margin-bottom: : 50px; 
+    padding: 15px 20px;
+    border-radius:5px; 
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+  .list-inline {
+    list-style: none; 
+    padding-left: none;
+}
+  .list-inline li{
+    display: inline;
+    padding: 20px;
+}
+  .list-inline i {
+    font-size: 40px;
+    margin-right: 10px; 
+}
+   .container {
+    width : 690.5px;
+    margin: 10px auto;
+}
+   @media (max-width: 760px) {
+    .container {
+      width: 700px;
+}
+    #paris {
+      margin: 0px 19px;
+}
+}
+   @media (max-width: 500px) {
+    .container {
+      width: 400px;
+}
+    #paris {
+      margin: 0px 19px;
+}
+}
+   .card-white {
+    background: white;
+    padding: 50px;
+    margin: 20px; 
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius:5px; 
+    margin: 20px 0px;
+    text-align: center; 
+}
+/*Design adjustements using id (1% design remaining) */
+#introduction p {
+    margin-bottom: 40px;
+}
+
+}
