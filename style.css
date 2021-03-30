@@ -78,12 +78,14 @@ a:hover {
       width: 400px;
 }
     #paris {
-      margin: 0px 19px;
+    text-align: center;
 }
+    #myself { 
+     margin: 0px, 19px;
+ }
     .btn-palevioletred {
       font-size: 10px;
-}
-	   
+    }
 }
    .card-white {
     background: white;
