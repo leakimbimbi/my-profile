@@ -80,6 +80,10 @@ a:hover {
     #paris {
       margin: 0px 19px;
 }
+    .btn-palevioletred {
+      font-size: 10px;
+}
+	   
 }
    .card-white {
     background: white;
